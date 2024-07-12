@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Jost", sans-serif;
+}
+
+.gradientBg{
+  background: linear-gradient(99deg, #EE9AE5 0%, #5961F9 100%);
+}
+
