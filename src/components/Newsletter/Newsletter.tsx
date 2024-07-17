@@ -1,15 +1,12 @@
-import heroImage from "../../assets/images/hero/hero.png"
-import {Button} from "../Button/Button"
-
-
-
-export function Hero(){
-    return(
-    <section className="md:px-14 p-4 max-w-screen-2xl mx-auto mt-24">
-        <div className="gradientBg rounded-xl rounded-br-[80px] md:p-9 px-4 py-9 ">
+import newsImg from "../../assets/images/newsletter/newsletter.png"
+import {Button} from "../../components/Button/Button"
+export function Newsletter(){
+    return (
+            <section className="md:px-14 p-4 max-w-screen-2xl mx-auto py-10">
+                <div className="gradientBg rounded-xl rounded-br-[80px] md:p-9 px-4 py-9 ">
         <div className="flex flex-col md:flex-row-reverse justify-between items-center gap-10 ">
         <div >
-            <img src={heroImage} alt="hero-image" className="md:h[386px] md:w-auto lg:h[386px] mx-2" />
+            <img src={newsImg} alt="hero-image" className="md:h[386px] md:w-auto lg:h[386px] mx-2" />
         </div>
             <div className='md:w-3/5 '>
             <h1 className="md:text-7xl text-4xl font-bold text-white mb-6 leading-relaxed">Develop your skills without dilligence</h1>
@@ -17,12 +14,11 @@ export function Hero(){
 
             <div className="flex flex-wrap gap-5 sm:flex">
             <Button href="/get-started" content="Get started"/>
-            <Button href="/get-started" content="Discount" />
             </div>
 
             </div>
         </div>   
         </div>
-    </section>
+            </section>
     )
 }

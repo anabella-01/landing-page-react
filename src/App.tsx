@@ -1,5 +1,13 @@
-import {Navbar} from "./components/Navbar/Navbar"
-import {Hero} from "./components/Hero/Hero"
+import {
+      Navbar,
+      Hero,
+      Features,
+      About,
+      Pricing,
+      Newsletter,
+      Footer
+      } from "./components"
+
 import './App.css'
 
 function App() {
@@ -9,6 +17,11 @@ function App() {
     <>
      <Navbar/>
      <Hero/>
+     <Features/>
+     <About/>
+     <Pricing/>
+     <Newsletter/>
+     <Footer/>
     </>
   )
 }
